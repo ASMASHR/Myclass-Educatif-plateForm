@@ -1,0 +1,116 @@
+/* .style={{backgroundColor:"gray"}} */
+.UnreadedmsgContainer {
+  margin: 0vw 0vw 0vw 1vw;
+  padding: 0vw 0vw 0vw 1vw;
+  background-color: rgb(190, 190, 190);
+  width: 75vw;
+}
+.UnreadedmsgContainer:hover {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.UnreadedMsg {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1vw;
+  padding: 0vw 0vw 0vw 1vw;
+}
+.UnreadedUserNameDiv {
+  width: 10vw;
+  font-size: 19px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  text-align: left;
+}
+.UnreadedMsgDiv {
+  color: rgb(19, 19, 19);
+  width: 18vw;
+  margin: 0px;
+  padding: 0vw;
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  text-align: left;
+}
+
+.UnreadedreceivedDiv {
+  color: rgb(19, 19, 19);
+  width: 12vw;
+  margin: 0px;
+  padding: 0vw;
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  text-align: left;
+}
+
+/* readed */
+.readedmsgContainer {
+  margin: 0vw 0vw 0vw 1vw;
+  padding: 0vw 0vw 0vw 1vw;
+  width: 75vw;
+}
+
+.readedmsgContainer:hover {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.readedMsg {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1vw;
+  padding: 0vw 0vw 0vw 1vw;
+}
+.ReadedUserNameDiv {
+  width: 10vw;
+  font-size: 19px;
+  font-family: "Font Awesome 5 Free";
+  text-align: left;
+}
+.readedMsgDiv {
+  width: 18vw;
+  margin: 0px;
+  padding: 0vw;
+  font-family: "Font Awesome 5 Free";
+  text-align: left;
+}
+.readedreceivedDiv {
+  color: rgb(19, 19, 19);
+  width: 12vw;
+  margin: 0px;
+  padding: 0vw;
+  font-family: "Font Awesome 5 Free";
+  text-align: left;
+}
+
+.MessageCard {
+  display: flex;
+
+  align-items: center;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+.MessageCard button {
+  color: black;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+.msgcol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 62vw;
+}
+.buttoncol {
+  border: none;
+  background-color: transparent;
+  font-size: small;
+}
+.buttoncol .fa-trash {
+  font-size: 16px;
+}

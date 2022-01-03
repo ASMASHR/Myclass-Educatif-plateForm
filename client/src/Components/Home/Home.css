@@ -1,0 +1,121 @@
+/* Home Styling */
+.searchDiv {
+  display: flex;
+  align-items: center;
+}
+.input-search {
+  width: 300px;
+  height: 60px;
+  border: 1px white;
+  background-color: white;
+  margin-left: 25vw;
+  display: flex;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, 0.2);
+}
+.searchDiv button {
+  width: 150px;
+  height: 65px;
+  color: white;
+  font-weight: bold;
+  background-color: #022247;
+  border: #022247;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, 0.2);
+}
+.home {
+  align-items: center;
+  margin-bottom: 1vw;
+}
+.HomeFirstDiv {
+  padding-top: 3vw;
+  /* width: 1519px;
+  height: 550px; */
+  background-image: url(https://elearnify.fra1.digitaloceanspaces.com/production/background_images/HKSaVKxSEFyRDQqoUKI5SRQeQJ7kqnnAaLWe2akI.png);
+  min-height: 350px;
+  background-size: 2000px 550px;
+  background-position: bottom;
+}
+.siteName {
+  font-size: 70px;
+  margin-left: 10vw;
+  margin-top: 30vw;
+  margin-bottom: 5vw;
+  font-family: "Berkshire Swash", cursive;
+  font-weight: bold;
+  color: white;
+}
+.logoo {
+  font-size: 23px;
+  margin: 0vw 1vw 2vw 20vw;
+  font-family: "Berkshire Swash";
+  font-style: italic;
+  /* color: #022247; */
+  color: rgb(241, 124, 28);
+}
+
+.siteInfo {
+  margin: 1vw;
+  margin-top: 10.5vw;
+  padding: 2vw;
+  color: white;
+  height: 7vw;
+  background-color: #022247;
+  display: flex;
+  justify-content: space-between;
+}
+.StudentsNumb {
+  display: flex;
+}
+.CoursesNumb {
+  display: flex;
+}
+.certifsNumb {
+  display: flex;
+}
+.fas,
+.fa {
+  border-right: 1px solid white;
+  font-size: 30px;
+  padding: 1vw;
+}
+.infoDetails {
+  padding-left: 1vw;
+}
+.infoDetails span {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(250, 250, 250);
+}
+.infoDetails p {
+  font-size: 18px;
+  color: rgb(241, 124, 28);
+}
+
+/* categories */
+.Categories {
+  margin: 3vw;
+}
+.CategoriesName {
+  /* padding: 2vw; */
+  margin-left: 20vw;
+  margin-bottom: 2vw;
+  font-family: "Berkshire Swash";
+  font-weight: 900;
+  font-size: 35px;
+  color: rgb(241, 124, 28);
+}
+.cateCard {
+  height: 4vw;
+  width: 15vw;
+  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset,
+    rgb(0 0 0 / 15%) 0px -36px 30px 0px inset,
+    rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px,
+    rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px,
+    rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;
+  text-align: center;
+  padding: 1vw;
+  font-size: 18px;
+  font-style: oblique;
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  color: #022247;
+}

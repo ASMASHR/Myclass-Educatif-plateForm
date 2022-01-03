@@ -1,0 +1,22 @@
+.CoursesCard {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+.CoursesComponent {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1vw;
+  /* align-content: center; */
+  /* align-content: center; */
+}
+
+.CoursesComponentsName {
+  /* padding: 2vw; */
+  margin-left: 20vw;
+  margin-bottom: 2vw;
+  font-family: "Berkshire Swash";
+  font-weight: 900;
+  font-size: 35px;
+  color: rgb(241, 124, 28);
+}

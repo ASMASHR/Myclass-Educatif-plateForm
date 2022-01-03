@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* NavBar Styling */
+.homeNav a {
+  color: rgb(247, 242, 242);
+  text-decoration: none;
+}
+.homeNav {
+  font-family: "Aclonica", sans-serif;
+  color: rgb(242, 242, 247);
+  width: 100%;
+  background-color: #022247;
+  display: flex;
+  flex-direction: row;
+  padding: 1vw 1vw 0vw 1vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 4vw;
+  font-family: "Berkshire Swash", cursive;
+  margin-left: 1vw;
+  /* padding: 1vw; */
+}
+.userNav {
+  justify-content: flex-end;
+}
+.NavRegister {
+  margin-left: 1vw;
+  margin-top: 2vw;
+  padding: 1vw;
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+}
+.NavRegister a {
+  width: 30%;
+  font-size: 16px;
+  /* font-feature-settings: "smcp"; */
+  /* font-variant: small-caps; */
+  font-style: italic;
+  font-variant-ligatures: contextual;
+  font-family: "Berkshire Swash";
+}
+.account-dropDown {
+  display: flex;
+  justify-content: center;
+  width: 30vw;
+}
+.AdminNav {
+  margin-left: 1vw;
+  margin-top: 2vw;
+  padding: 1vw;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+.AdminNav a {
+  width: 30%;
+  font-size: 16px;
+  /* font-feature-settings: "smcp"; */
+  /* font-variant: small-caps; */
+  font-style: italic;
+  font-variant-ligatures: contextual;
+  font-family: "Berkshire Swash";
+}
+.dropdown-menu.show {
+  display: block;
+  
+  background-color: #022247;
+}

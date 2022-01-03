@@ -1,0 +1,213 @@
+.FullCourseContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1vw;
+  padding: 1vw;
+  height: auto;
+}
+.goBackhome {
+  width: 100%;
+  display: flex;
+}
+.goBackhome button {
+  height: 100%;
+  justify-content: center;
+  border: none;
+  background-color: rgb(245, 200, 161);
+}
+.CourseTitle {
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid sandybrown;
+}
+.CourseTitle h2 {
+  color: rgb(14, 13, 13);
+  font-size: 3vw;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-left: 15vw;
+  margin-bottom: 4vw;
+
+  /* margin: 40px 8px 10px 8px; */
+}
+.DificultieDuration {
+  display: flex;
+  justify-content: left;
+  justify-items: center;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+  justify-content: space-between;
+  width: 70vw;
+  margin-left: 15vw;
+}
+.dificultieDiv,
+.durationDiv {
+  width: 20vw;
+  display: flex;
+  /* justify-content: left; */
+  /* justify-items: center; */
+  align-items: center;
+  /* align-content: center*/
+}
+.dificultieDiv p,
+.durationDiv p {
+  margin-bottom: 0px;
+}
+.time-dificultie {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.duration {
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.dificultie {
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.CourseContent {
+  display: flex;
+}
+.CourseContent img {
+  height: 50vw;
+  width: 50vw;
+  margin-left: 12vw;
+}
+
+.coursePlan {
+  padding: 2px;
+  width: 30vw;
+  font-size: 17px;
+  border-right: 1px solid bisque;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1vw;
+  font-weight: bold;
+}
+.modules {
+  margin-left: 4px;
+  padding-left: 1px;
+}
+
+.coursePlan button {
+  border: none;
+  background-color: hsl(0, 100%, 100%);
+  margin: 11px;
+  font-size: 15px;
+  font-style: italic;
+  text-align: start;
+}
+.modName {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 13px;
+}
+.coursePlan button:hover {
+  color: #8614f8;
+}
+.rightSide {
+  width: 70vw;
+}
+.rightSideButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonLeftRight {
+  background-color: initial;
+  background-image: linear-gradient(#8614f8 0, #760be0 100%);
+  border-radius: 5px;
+  border-style: none;
+  margin: 2vw;
+  box-shadow: rgba(245, 244, 247, 0.25) 0 1px 1px inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 80px;
+
+  /* margin-left: -4px; */
+  outline: 0;
+  text-align: center;
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: bottom;
+  width: 10000px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.buttonLeftRight:hover {
+  opacity: 0.7;
+}
+.buttonLeftRight span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .buttonLeftRight {
+    font-size: 14px;
+    height: 55px;
+    line-height: 55px;
+    width: 150px;
+  }
+}
+.courseContent {
+  margin-left: 1vw;
+  padding: 1vw;
+}
+.Chaptername {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 1vw;
+  padding-bottom: 2vw;
+}
+.Chaptercontent {
+  font-size: 16px;
+}
+/* CSS */
+.buttonNextChapter {
+  margin-left: 200px;
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.buttonNextChapter:active,
+.buttonNextChapter:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .buttonNextChapter {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}

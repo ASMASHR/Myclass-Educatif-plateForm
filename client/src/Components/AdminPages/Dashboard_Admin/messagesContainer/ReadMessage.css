@@ -1,0 +1,128 @@
+.ReadingMsgContainer {
+  margin: 3vw;
+  width: 60vw;
+}
+.buttonGoBack {
+  background-color: transparent;
+  border: none;
+}
+.MessageInfo {
+}
+.FirstRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+}
+.buttonGoBack {
+  border: none;
+  background-color: transparent;
+}
+.fa-arrow-left {
+  font-size: 18px;
+}
+.buttonReply {
+  border: none;
+  background-color: transparent;
+}
+.fa-reply {
+  font-size: 18px;
+}
+.MessageContent {
+  padding: 1vw;
+  border-bottom: 1px solid gray;
+}
+.ResponseDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+  /* height: 22vw; */
+  justify-content: center;
+  align-items: flex-start;
+}
+.MessageToDiv {
+  padding-bottom: 1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputDiv {
+  height: 4vw;
+  margin-left: 1vw;
+  border: none;
+  border-bottom: 3px solid black;
+  padding-left: 1vw;
+  color: grey;
+  font-family: "Font Awesome 5 Brands";
+  font-style: italic;
+}
+.MessageSpan {
+  color: #022247;
+  font-family: "Font Awesome 5 Brands";
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.buttonSend {
+  align-items: center;
+  appearance: none;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 1px -2px, rgba(0, 0, 0, 0.14) 0 2px 2px 0,
+    rgba(0, 0, 0, 0.12) 0 1px 5px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Roboto, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  height: 36px;
+  justify-content: center;
+  letter-spacing: 0.0892857em;
+  line-height: normal;
+  min-width: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 0 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  will-change: transform, opacity;
+}
+
+.buttonSend:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px -1px, rgba(0, 0, 0, 0.14) 0 4px 5px 0,
+    rgba(0, 0, 0, 0.12) 0 1px 10px 0;
+}
+
+.buttonSend:disabled {
+  background-color: rgba(0, 0, 0, 0.12);
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 0, rgba(0, 0, 0, 0.14) 0 0 0 0,
+    rgba(0, 0, 0, 0.12) 0 0 0 0;
+  color: rgba(0, 0, 0, 0.37);
+  cursor: default;
+  pointer-events: none;
+}
+
+.buttonSend:not(:disabled) {
+  background-color: #6200ee;
+}
+
+.buttonSend:focus {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px -1px, rgba(0, 0, 0, 0.14) 0 4px 5px 0,
+    rgba(0, 0, 0, 0.12) 0 1px 10px 0;
+}
+
+.buttonSend:active {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 5px 5px -3px,
+    rgba(0, 0, 0, 0.14) 0 8px 10px 1px, rgba(0, 0, 0, 0.12) 0 3px 14px 2px;
+  background: #a46bf5;
+}

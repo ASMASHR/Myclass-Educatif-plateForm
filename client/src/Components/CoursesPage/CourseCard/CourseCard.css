@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.CourseContainer {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  height: 440px;
+  margin: 1vw;
+  padding-top: 0%;
+  margin: 2vw;
+  box-shadow: 1px 2px 2px #0a0a0a;
+}
+.CourseContainer:hover {
+  margin-top: -2px;
+  box-shadow: 16px 16px 44px #0a0a0a, -1px -1px 1px #393a39;
+  transition: 0.3s all ease-in-out;
+}
+
+.courseImg {
+  height: 215px;
+  width: 440px;
+}
+.Right-Side {
+  margin: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.CourseCategorie {
+  font-size: 14px;
+  color: rgb(58, 55, 55);
+  font-family: "Berkshire Swash";
+}
+.courseName {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.courseDesc {
+  padding-bottom: 0px;
+  font-size: 12px;
+  line-height: 23px;
+}
+.DificultieDuration {
+  display: flex;
+  justify-content: left;
+  justify-items: center;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+}
+.dificultieDiv {
+  width: 10vw;
+  display: flex;
+  justify-content: left;
+}
+.durationDiv {
+  width: 10vw;
+  display: flex;
+  justify-content: left;
+}
+.fa-clock,
+.fa-signal {
+  margin-right: 1vw;
+}

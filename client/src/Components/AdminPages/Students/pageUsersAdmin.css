@@ -1,0 +1,114 @@
+/* PageUsersAdmin */
+.AddCourseDiv {
+  margin: 1vw;
+  padding: 1vw;
+  width: 40vw;
+  height: 5vw;
+  color: white;
+  background-color: rgb(3, 3, 77);
+  font-family: cursive;
+  font-size: 25px;
+}
+.AllStudentsContainer {
+  /* margin: 2vw; */
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-color: #f8f8f8;
+}
+
+.StudentSearchInput {
+  margin: 2vw;
+  padding: 1vw;
+  width: 35vw;
+  height: 4vw;
+  border: 1px solid gray;
+}
+.AllStudentsC {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* AdminCourseCard css style={{border:"1px solid",display:"flex" }} */
+.CardStudentsContainer {
+  margin: 2vw;
+  /* padding: 1vw; */
+  display: flex;
+  width: 42vw;
+  height: auto;
+  border: 2px solid;
+  align-items: center;
+}
+.nameEmail {
+  display: flex;
+  justify-content: space-evenly;
+}
+.CardStudentsContainer:hover {
+  margin-top: -1px;
+  box-shadow: 10px 10px 30px #3f3e3e, -1px -1px 1px #393a39;
+  transition: 0.3s all ease-in-out;
+}
+.StudentInfo {
+  width: 50vw;
+  padding: 1vw;
+  border-right: 2px solid #022247;
+}
+.StudentInfo h4 {
+  font-size: 17px;
+  font-family: Berkshire Swash;
+  font-weight: bold;
+  margin: 1vw;
+  color: rgb(231, 151, 60);
+}
+.StudentInfo h5 {
+  font-size: 17px;
+  font-family: fantasy;
+  font-style: italic;
+  margin: 1vw;
+  color: rgb(231, 151, 60);
+}
+.StudentInfo h6 {
+  font-size: 16px;
+  margin: 3px;
+  color: #022247;
+  font-family: "Font Awesome 5 Brands";
+}
+.CoursesDiv span {
+  font-weight: bold;
+  font-family: emoji;
+  font-size: 15px;
+}
+.courseProg {
+  color: rgb(231 151 60);
+}
+.StudentButton {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.StudentButton a {
+  color: black;
+  font-size: 30px;
+}
+.StudentButton .fas {
+  font-size: 30px;
+  padding: 2vw;
+}
+.StudentButton .fa {
+  font-size: 30px;
+  padding-right: 2vw;
+}
+.StudentButton button {
+  color: black;
+  border: none;
+  background-color: inherit;
+  font-size: 30px;
+}
+.StudentButton .fa:hover,
+.fas:hover {
+  color: rgb(37, 37, 255);
+}
