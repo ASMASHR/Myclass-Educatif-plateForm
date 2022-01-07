@@ -31,7 +31,7 @@ function CourseCard({course, user}) {
                         <h3 className="courseName">{course.CourseName}</h3>
                          <ReactStars edit={false} count={5} size={30} value={course.Rating} activeColor="#ffd700"/>
 
-                        <p className="courseDesc">{course.CourseDescription}</p>
+                        <div className="courseDesc" dangerouslySetInnerHTML={{__html:course.CourseDescription}}/>
                         </div>
         </div>
         </Link>):
